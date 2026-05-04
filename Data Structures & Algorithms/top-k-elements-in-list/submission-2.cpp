@@ -12,7 +12,7 @@ public:
         }
 
         vector<int> arr;
-        for(int i =max; i >= 0; i--){
+        for(int i =max; i > 0; i--){
             for(auto const& [num, freq] : count){
                 if(freq == i)
                     arr.push_back(num);
